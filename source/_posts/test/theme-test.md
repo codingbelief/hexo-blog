@@ -94,11 +94,11 @@ function covertToUInt16(byteL, byteH) {
 
 ## 图片 1
 
-![theme-test 1](theme-test-1.png)
+![theme-test 1](theme-test-01.png)
 
 ## 图片 2
 
-![theme-test 1](theme-test-2.jpg)
+![theme-test 2](theme-test-02.png)
 
 # 链接测试
 
