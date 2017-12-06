@@ -81,7 +81,9 @@ function covertToUInt16(byteL, byteH) {
 | A[12:0] | Input | Address 总线，用于传输行列地址 |
 | DQ[15:0] | I/O | Data 总线，用于传输读写的数据内容 |
 
-## 表格 1
+## 表格 2
+
+<a name="表格-1-1" class="table-caption">表格 1-1</a>
 
 | DDR SDRAM Standard | Bus clock (MHz) | Internal rate (MHz) | Prefetch (min burst) | Transfer Rate (MT/s) | Voltage |
 | -- | -- | -- | -- | -- | -- |
@@ -90,19 +92,40 @@ function covertToUInt16(byteL, byteH) {
 | DDR3 | 400–1066.67 | 100–266.67 |8n | 800–2133.33 | 1.5 | 
 | DDR4 | 1066.67–2133.33 | 133.33–266.67 | 8n | 2133.33–4266.67 | 1.05/1.2 |
 
+
 # 图片测试
 
 ## 图片 1
 
+<a name="图片-1-1" class="img-caption">图片 1</a>
 ![theme-test 1](theme-test-01.png)
+
 
 ## 图片 2
 
-![theme-test 2](theme-test-02.png)
+<img src="theme-test-02.png" alt="theme-test-02.png" title="图片 2">
+
+# Note 测试
+
+{% note default %} Content (default) {% endnote %}  
+
+{% note success %} Content (success) {% endnote %}  
+
+{% note primary %} Content (primary) {% endnote %}  
+
+{% note info %} Content (info) {% endnote %}
+
+{% note warning %} Content (warning) {% endnote %}
+
+{% note danger %} Content (danger) {% endnote %}
+
 
 # 链接测试
 
 1. [Everything You Need To Know About DDR, DDR2 and DDR3 Memories [WEB]](http://www.hardwaresecrets.com/everything-you-need-to-know-about-ddr-ddr2-and-ddr3-memories/)
 2. [記憶體10年技術演進史 [WEB]](http://www.techbang.com/posts/17190)
+
+[`表格 1`](#表格-1-1)
+[图片 1](#图片-1-1)
 
 
