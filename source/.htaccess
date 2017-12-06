@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteBase /
+
+#只许绑定的域名访问
+RewriteCond %{HTTP_HOST} !^www.codingbelief.com$ [NC]
+RewriteRule (.*) http://www.codingbelief.com/$1 [L,R=301]
+
+#对绑定目录下与 同名的目录的处理
+RewriteCond %{REQUEST_URI} ^/hexo/ [NC]
+RewriteCond %{QUERY_STRING} !^(.*)?Rewrite
+RewriteRule ^(.*)$ /%{REQUEST_URI}/%{REQUEST_URI}/$1?Rewrite [L,QSA]
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
