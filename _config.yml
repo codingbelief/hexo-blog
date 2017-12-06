@@ -81,6 +81,11 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
 
+nofollow:
+  enable: true
+  exclude:
+  - www.codingbelief.com
+  - codingbelief.com
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

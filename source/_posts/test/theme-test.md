@@ -1,5 +1,5 @@
 ---
-title: 主题测试
+title: 主题测试页
 date: 2017-12-02 22:43:20
 keywords: Hexo 主题, 测试页
 comments: true
